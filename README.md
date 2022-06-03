@@ -1,16 +1,6 @@
 # flutter_flow_ui
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![icomini_login_design](https://user-images.githubusercontent.com/72187529/171841842-e84ded15-2af7-47f0-8dff-69bf39e4c60a.PNG) 
+![create_account_design](https://user-images.githubusercontent.com/72187529/171841876-cdc16302-6fd4-45e2-a6c4-b8bb390df4cc.PNG)
+![forget_password_design](https://user-images.githubusercontent.com/72187529/171841916-9347d59a-29a7-40ad-8b29-7e6e53e24d13.PNG)
+![home_page](https://user-images.githubusercontent.com/72187529/171841938-1b018b0d-0eb5-4ad7-9658-8d74ea37f3e9.PNG)
