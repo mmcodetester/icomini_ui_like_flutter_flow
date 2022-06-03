@@ -220,6 +220,8 @@ class _RegisterAccountState extends State<RegisterAccount> {
                               ],
                             ),
                           ),
+
+                          //Guest section
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
