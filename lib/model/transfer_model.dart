@@ -1,6 +1,8 @@
+import 'package:flutter/material.dart';
+
 class Transfer {
   String? name;
-  String? icon;
+  IconData? icon;
   String? ammount;
   String? date;
   String? transferType;
@@ -10,31 +12,31 @@ class Transfer {
 List<Transfer> transferList = [
   Transfer(
       name: 'shop.com payment',
-      icon: 'Icons.arrow_upward',
+      icon: Icons.arrow_upward,
       ammount: '300USD',
       date: '1-2-2022',
       transferType: 'Sent'),
   Transfer(
       name: 'shop.com payment',
-      icon: 'Icons.arrow_downward',
+      icon: Icons.arrow_downward,
       ammount: '300USD',
       date: '2-2-2022',
       transferType: 'Received'),
   Transfer(
       name: 'shop.com payment',
-      icon: 'Icons.arrow_upward',
+      icon: Icons.arrow_upward,
       ammount: '300USD',
       date: '3-2-2022',
       transferType: 'Sent'),
   Transfer(
       name: 'shop.com payment',
-      icon: 'Icons.arrow_upward',
+      icon: Icons.arrow_upward,
       ammount: '300USD',
       date: '4-2-2022',
       transferType: 'Sent'),
   Transfer(
       name: 'shop.com payment',
-      icon: 'Icons.arrow_downward',
+      icon: Icons.arrow_downward,
       ammount: '300USD',
       date: '5-2-2022',
       transferType: 'Received')

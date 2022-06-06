@@ -25,13 +25,12 @@ class _MyWidgetState extends State<TransferList> {
                         primary: Colors.blueGrey[700],
                         minimumSize: const Size(20, 50)),
                     onPressed: () {},
-                    child: item.icon == 'Icons.arrow_upward'
-                        ? const Icon(
-                            Icons.arrow_upward,
-                            color: Colors.red,
-                          )
-                        : const Icon(Icons.arrow_downward,
-                            color: Colors.green)),
+                    child: Icon(
+                      item.icon,
+                      color: item.transferType == 'Sent'
+                          ? Colors.redAccent
+                          : Colors.green,
+                    )),
                 title: Text(item.name!),
                 subtitle: Padding(
                   padding: const EdgeInsets.only(top: 8.0),
