@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_flow_ui/ui/transfer/transfer.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -222,33 +223,43 @@ class _HomePageState extends State<HomePage> {
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(
-                                  maxWidth: 110,
-                                  maxHeight: 110,
-                                  minHeight: 80,
-                                  minWidth: 80),
-                              decoration: BoxDecoration(
-                                  color: Colors.blueGrey.withOpacity(0.3),
-                                  borderRadius: const BorderRadius.all(
-                                      Radius.circular(10.0))),
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.swap_horiz_rounded,
-                                    color: Colors.white,
-                                    size: 40,
+                            InkWell(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const TransferPage(),
                                   ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0, 8, 0, 0),
-                                    child: Text(
-                                      'Transfer',
+                                );
+                              },
+                              child: Container(
+                                constraints: const BoxConstraints(
+                                    maxWidth: 110,
+                                    maxHeight: 110,
+                                    minHeight: 80,
+                                    minWidth: 80),
+                                decoration: BoxDecoration(
+                                    color: Colors.blueGrey.withOpacity(0.3),
+                                    borderRadius: const BorderRadius.all(
+                                        Radius.circular(10.0))),
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: const [
+                                    Icon(
+                                      Icons.swap_horiz_rounded,
+                                      color: Colors.white,
+                                      size: 40,
                                     ),
-                                  ),
-                                ],
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0, 8, 0, 0),
+                                      child: Text(
+                                        'Transfer',
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             Container(
